@@ -7,7 +7,7 @@
 }
 /* =======================================================
 *
-* 	Template Style 
+* 	Template Style
 *
 * ======================================================= */
 body {
@@ -969,7 +969,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 @media screen and (max-width: 768px) {
   #fh5co-footer .fh5co-footer-links {
-    margin-bottom: 30px;
+    margin-bottom: 10px;
   }
 }
 #fh5co-footer .fh5co-footer-links li {

@@ -19,6 +19,13 @@ body {
   background: #fff;
 }
 
+center {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 80px;
+  margin-left: 80px;
+}
+
 #page {
   position: relative;
   overflow-x: hidden;
@@ -1482,5 +1489,8 @@ input[type="text"] {
 .js .animate-box {
   opacity: 0;
 }
+
+
+
 
 /*# sourceMappingURL=style.css.map */

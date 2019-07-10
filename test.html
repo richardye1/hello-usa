@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {background-color: powderblue;}
+p{
+font-size: 100%;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(15, 1fr);
+  grid-template-rows: repeat(12, 1fr);
+  font-size: 100%;
+
+  /*
+  grid-template-columns: 7fr 3fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 3fr 1fr 1fr 1fr 1fr 1fr 2fr 1fr;
+  */
+}
+.countyname{
+  grid-column: 1/9;
+  grid-row: 1/2;
+}
+.countydescription{
+  grid-column: 1/9;
+  grid-row: 3
+}
+.partisanshipbox{
+  grid-column: 10/15;
+  grid-row: 1/2;
+}
+.party{
+  grid-column: 1/2;
+  grid-row: 4;
+}
+.votes{
+  grid-column: 3/6;
+  grid-row: 4;
+}
+.vs2016{
+  grid-column: 7/10;
+  grid-row: 4;
+}
+.dem{
+  grid-column: 1/2;
+  grid-row: 5/6;
+}
+.rep{
+  grid-column: 1/2;
+  grid-row: 7/8;
+}
+.demvote{
+  grid-column: 3/6;
+  grid-row: 5/6;
+}
+.repvote{
+  grid-column: 3/6;
+  grid-row: 7/8
+}
+.percentboxblue{
+  grid-column: 11/13;
+  grid-row: 5/6;
+}
+.percentboxred{
+  grid-column: 11/13;
+  grid-row: 7/8;
+}
+.percentboxchangeblue{
+  grid-column: 14/15;
+  grid-row: 5;
+}
+.percentboxchangered{
+  grid-column: 14/15;
+  grid-row: 7;
+}
+.percentboxchangebluelower{
+  grid-column: 14/15;
+  grid-row: 6;
+}
+.percentboxchangeredlower{
+  grid-column: 14/15;
+  grid-row: 8;
+}
+.changevotesblue{
+  grid-column: 7/10;
+  grid-row: 5;
+}
+.changevotesblue2{
+  grid-column: 7/10;
+  grid-row: 6;
+}
+.changevotesred{
+  grid-column: 7/10;
+  grid-row: 7;
+}
+.changevotesred2{
+  grid-column: 7/10;
+  grid-row: 8;
+}
+.votepct{
+  grid-column: 11/13;
+  grid-row: 4;
+}
+.votepctchange{
+  grid-column: 14/15;
+  grid-row: 4;
+}
+.winner{
+  grid-column: 1/2;
+  grid-row: 9/11;
+}
+.winnermargin{
+  grid-column: 3/6;
+  grid-row: 9/11;
+}
+.winnermarginchange{
+  grid-column: 7/10;
+  grid-row: 9/10;
+}
+.winnermarginvs2016{
+  grid-column: 7/10;
+  grid-row: 11;
+}
+.history2000{
+  grid-column: 11;
+  grid-row: 11;
+}
+.history2004{
+  grid-column: 12;
+  grid-row: 11;
+}
+.history2008{
+  grid-column: 13;
+  grid-row: 11;
+}
+.history2012{
+  grid-column: 14;
+  grid-row: 11;
+}
+.history2016{
+  grid-column: 15;
+  grid-row: 11;
+}
+
+
+</style>
+
+<section class="container">
+  <div class="countyname">
+    <p>Wayne County, Mich.</p>
+  </div>
+
+  <div class="countydescription">
+    <p> Pop 1,750,230, Turnout: 730,000 </p>
+  </div>
+
+  <div class="partisanshipbox">
+    <p> DEM +50.4 </p>
+  </div>
+
+  <div class="party"> <p> Party </p></div>
+  <div class="votes"> <p> Votes </p></div>
+  <div class="vs2016"> <p> vs 2016 </p></div>
+  <div class="dem"> <p> DEM. </p></div>
+  <div class="rep"> <p> REP. </p></div>
+  <div class="demvote"> <p> 530,089. </p></div>
+  <div class="repvote"> <p> 219,380 </p></div>
+  <div class="changevotesblue"> <p> +11,000 </p></div>
+  <div class="changevotesblue2"> <p> 519,000 </p></div>
+  <div class="changevotesred"> <p> -7,000 </p></div>
+  <div class="changevotesred2"> <p> 226,000 </p></div>
+
+
+  <div class="votepct"> <p> %</p></div>
+  <div class="votepctchange"> <p> vs 2016 </p></div>
+  <div class="percentboxblue"> <p> 69.8 </p></div>
+  <div class="percentboxred"> <p> 29.4 </p></div>
+  <div class="percentboxchangeblue"> <p> +1.8 </p></div>
+  <div class="percentboxchangered"> <p> -1.2 </p></div>
+  <div class="percentboxchangebluelower"> <p> 68.0 </p></div>
+  <div class="percentboxchangeredlower"> <p> 30.6 </p></div>
+
+  <div class="winner"> <p> DEM. </p></div>
+  <div class="winnermargin"> <p> +311,000 </p></div>
+  <div class="winnermarginchange"> <p> +21,000 </p></div>
+  <div class="winnermarginvs2016"> <p> +311,000 </p></div>
+
+  <div class="history2000"> <p> D+35 </p></div>
+  <div class="history2004"> <p> D+40 </p></div>
+  <div class="history2008"> <p> D+51 </p></div>
+  <div class="history2012"> <p> D+47 </p></div>
+  <div class="history2016"> <p> D+48 </p></div>
+
+
+
+
+
+
+
+
+
+
+
+</section>
